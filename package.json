@@ -1,0 +1,33 @@
+{
+  "name": "messenger-to-telegram",
+  "version": "1.0.0",
+  "description": "Integrate Messenger to your Telegram Accounts with a Bot.",
+  "main": "bot.js",
+  "scripts": {
+    "compile": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node out/index.js"
+  },
+  "author": "Alexander Jose Rodriguez Duven <alexr1712@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "facebook-chat-api": "^1.8.0",
+    "node-telegram-bot-api": "^0.27.0",
+    "tslib": "~1.11.2"
+  },
+  "devDependencies": {
+    "@types/jest": "~25.2.1",
+    "@types/node": "~12.12.38",
+    "@typescript-eslint/eslint-plugin": "~2.32.0",
+    "@typescript-eslint/parser": "~2.32.0",
+    "eslint": "~7.0.0",
+    "eslint-config-prettier": "~6.11.0",
+    "eslint-plugin-jest": "~23.10.0",
+    "jest": "~25.2.7",
+    "prettier": "~2.0.5",
+    "rimraf": "~3.0.2",
+    "ts-jest": "~25.5.1",
+    "tsutils": "~3.17.0",
+    "typescript": "~3.8.3"
+  }
+}
